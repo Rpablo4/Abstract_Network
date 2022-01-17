@@ -136,6 +136,9 @@ function animate(){
 
   //mouse fora da tela
 
+window.addEventListener('mouseout', function(){
+      mouse.x = undefined;
+      mouse.y = undefined;})
 
 
 init();
